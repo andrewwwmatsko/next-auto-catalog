@@ -1,6 +1,7 @@
 import Header from "./(components)/Header/Header.jsx";
 import Hero from "./(components)/Hero/Hero.jsx";
 import HowItWorks from "./(components)/HowItWorks/HowItWorks.jsx";
+import Prices from "./(components)/Prices/Prices.jsx";
 import WhatIsFor from "./(components)/WhatIsFor/WhatIsFor.jsx";
 import css from "./page.module.css";
 
@@ -14,6 +15,7 @@ export default function Home() {
         <Hero />
         <HowItWorks />
         <WhatIsFor />
+        <Prices />
       </main>
       <footer className={css.footer}></footer>
     </div>
