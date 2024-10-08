@@ -6,7 +6,7 @@ import priceCards from "./cardDetails.js";
 
 export default function Prices() {
   return (
-    <section className={css.section}>
+    <section className={css.section} id="prices">
       <Container>
         <h2 className={css.title}>SERVICE PRICES</h2>
 

@@ -9,7 +9,7 @@ import Image from "next/image.js";
 
 export default function HowItWorks() {
   return (
-    <section className={css.section}>
+    <section className={css.section} id="howItWorks">
       <div className={css.container}>
         <h2 className={css.mainTitle}>HOW IT WORKS</h2>
 

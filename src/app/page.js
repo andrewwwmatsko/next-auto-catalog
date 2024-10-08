@@ -1,3 +1,4 @@
+import Faq from "./(components)/Faq/Faq.jsx";
 import Header from "./(components)/Header/Header.jsx";
 import Hero from "./(components)/Hero/Hero.jsx";
 import HowItWorks from "./(components)/HowItWorks/HowItWorks.jsx";
@@ -16,6 +17,7 @@ export default function Home() {
         <HowItWorks />
         <WhatIsFor />
         <Prices />
+        <Faq />
       </main>
       <footer className={css.footer}></footer>
     </div>

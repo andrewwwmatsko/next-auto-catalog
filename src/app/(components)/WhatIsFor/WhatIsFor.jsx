@@ -10,7 +10,7 @@ import css from "./WhatIsFor.module.css";
 
 export default function WhatIsFor() {
   return (
-    <section className={css.section}>
+    <section className={css.section} id="whatIsFor">
       <Container>
         <h2 className={css.title}>WHAT IS IT FOR</h2>
 

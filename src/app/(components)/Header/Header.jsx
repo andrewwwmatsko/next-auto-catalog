@@ -22,16 +22,24 @@ export default function Header() {
           <nav className={css.nav}>
             <ul className={css.menuList}>
               <li className={css.menuItem}>
-                <a className={css.menuLink}>HOW IT WORKS</a>
+                <a className={css.menuLink} href="#howItWorks">
+                  HOW IT WORKS
+                </a>
               </li>
               <li className={css.menuItem}>
-                <a className={css.menuLink}>WHAT IS IT FOR</a>
+                <a className={css.menuLink} href="#whatIsFor">
+                  WHAT IS IT FOR
+                </a>
               </li>
               <li className={css.menuItem}>
-                <a className={css.menuLink}>PRICES</a>
+                <a className={css.menuLink} href="#prices">
+                  PRICES
+                </a>
               </li>
               <li className={css.menuItem}>
-                <a className={css.menuLink}>FAQ</a>
+                <a className={css.menuLink} href="#faq">
+                  FAQ
+                </a>
               </li>
             </ul>
           </nav>
