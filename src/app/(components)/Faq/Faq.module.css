@@ -9,3 +9,7 @@
 
   margin-bottom: 43px;
 }
+
+.accordionItem:not(:last-of-type) {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,20 @@
+.accordionTitle {
+  color: #303030;
+  font-weight: 700;
+  line-height: 1.2;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 31px 70px;
+  text-align: left;
+
+  border-radius: 15px;
+  background: #f9f9f9;
+}
+
+.accordionText {
+  color: #818181;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: left;
+}
