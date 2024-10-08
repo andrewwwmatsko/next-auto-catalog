@@ -1,0 +1,37 @@
+.section {
+  padding-top: 297px;
+  padding-bottom: 64px;
+}
+
+.title {
+  color: #303030;
+  text-align: center;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.22;
+  margin-bottom: 45px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+}
+.listItem {
+  max-width: 251px;
+}
+
+.icon {
+  margin-bottom: 28px;
+}
+
+.subtitle {
+  color: #303030;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.secription {
+  color: #818181;
+  font-weight: 500;
+  line-height: 1.6;
+}
