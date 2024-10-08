@@ -1,0 +1,50 @@
+.wrapper {
+  padding: 0 70px;
+}
+
+.section {
+  /* padding: 146px 0 311px 0; */
+  padding-top: 146px;
+  padding-bottom: 311px;
+  height: 832px;
+}
+
+.title {
+  max-width: 596px;
+
+  color: #fff;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.24;
+  font-variant: small-caps;
+
+  margin-bottom: 30px;
+}
+
+.description {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-variant: all-small-caps;
+
+  max-width: 618px;
+  margin-bottom: 45px;
+}
+
+.demoBtn {
+  width: 220px;
+
+  color: #303030;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.2;
+
+  border-radius: 15px;
+  background-color: #ffe600;
+  border: none;
+  cursor: pointer;
+  padding: 27px 28px;
+}
