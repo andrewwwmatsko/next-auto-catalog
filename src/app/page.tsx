@@ -6,6 +6,7 @@ import HowItWorks from "./(components)/HowItWorks/HowItWorks.tsx";
 import Prices from "./(components)/Prices/Prices.tsx";
 import WhatIsFor from "./(components)/WhatIsFor/WhatIsFor.tsx";
 import css from "./page.module.css";
+import StillHaveQuestions from "./(components)/StillHaveQuestions/stillHaveQuestions.tsx";
 
 const Home: FC = () => {
   return (
@@ -19,6 +20,7 @@ const Home: FC = () => {
         <WhatIsFor />
         <Prices />
         <Faq />
+        <StillHaveQuestions />
       </main>
       <footer className={css.footer}></footer>
     </div>

@@ -1,0 +1,21 @@
+.submitBtn {
+  border-radius: 15px;
+  background: #ffe600;
+
+  color: #303030;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 27px 32px;
+
+  cursor: pointer;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.input {
+  margin-bottom: 38px;
+}
