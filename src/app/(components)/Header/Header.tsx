@@ -2,7 +2,6 @@ import Link from "next/link.js";
 import Image from "next/image.js";
 
 import { MdEmail } from "react-icons/md";
-import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 import Container from "../Container/Container.tsx";
 
@@ -48,11 +47,6 @@ const Header = () => {
             <button type="button" className={css.contactUsBtn}>
               <MdEmail size={15} color="white" />
               Contact us
-            </button>
-
-            <button className={css.selectLanguage} type="button">
-              EN
-              <MdOutlineKeyboardArrowDown size={10} />
             </button>
           </div>
         </div>

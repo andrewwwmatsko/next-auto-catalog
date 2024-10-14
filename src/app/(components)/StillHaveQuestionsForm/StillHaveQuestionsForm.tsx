@@ -23,7 +23,9 @@ const StillHaveQuestionsForm: FC = () => {
   });
 
   const handleSubmit = (values: any, actions: any) => {
-    console.log("🚀 ~ handleSubmit ~ values:", values);
+    setTimeout(() => {
+      alert(JSON.stringify(values));
+    }, 500);
     actions.resetForm();
   };
 
