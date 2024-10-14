@@ -7,3 +7,8 @@
 .main {
   position: relative;
 }
+
+.footer {
+  background-color: #f9f9f9;
+  padding: 32px 0;
+}

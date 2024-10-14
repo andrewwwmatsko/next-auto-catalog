@@ -6,7 +6,8 @@ import HowItWorks from "./(components)/HowItWorks/HowItWorks.tsx";
 import Prices from "./(components)/Prices/Prices.tsx";
 import WhatIsFor from "./(components)/WhatIsFor/WhatIsFor.tsx";
 import css from "./page.module.css";
-import StillHaveQuestions from "./(components)/StillHaveQuestions/stillHaveQuestions.tsx";
+import StillHaveQuestions from "./(components)/StillHaveQuestions/StillHaveQuestions.tsx";
+import Footer from "./(components)/Footer/Footer.tsx";
 
 const Home: FC = () => {
   return (
@@ -22,7 +23,9 @@ const Home: FC = () => {
         <Faq />
         <StillHaveQuestions />
       </main>
-      <footer className={css.footer}></footer>
+      <footer className={css.footer}>
+        <Footer />
+      </footer>
     </div>
   );
 };
