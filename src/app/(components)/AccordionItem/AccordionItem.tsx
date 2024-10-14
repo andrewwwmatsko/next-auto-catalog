@@ -1,8 +1,12 @@
 "use client";
 import css from "./AccordionItem.module.css";
-import { useState } from "react";
+import { FC, useState } from "react";
 
-export default function AccordionItem({ data: { title, text } }) {
+type Props = {
+  data: { title: string; text: string };
+};
+
+const AccordionItem: FC<Props> = ({ data: { title, text } }) => {
   const [isActive, setIsActive] = useState(false);
 
   const handleShowText = () => {
@@ -18,4 +22,5 @@ export default function AccordionItem({ data: { title, text } }) {
       {isActive && <div className={css.accordionText}>{text}</div>}
     </>
   );
-}
+};
+export default AccordionItem;

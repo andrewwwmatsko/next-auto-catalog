@@ -1,10 +1,10 @@
 import { RiArrowDropRightLine } from "react-icons/ri";
 
-import Container from "../Container/Container.jsx";
+import Container from "../Container/Container.tsx";
 
 import css from "./Hero.module.css";
 
-export default function Hero() {
+const Hero = () => {
   return (
     <section className={css.section}>
       <Container>
@@ -18,4 +18,6 @@ export default function Hero() {
       </Container>
     </section>
   );
-}
+};
+
+export default Hero;

@@ -1,6 +1,6 @@
 import Image from "next/image.js";
 
-import Container from "../Container/Container.jsx";
+import Container from "../Container/Container.tsx";
 
 import trafficIcon from "../../../(images)/icons/whatIsFor-traffic-icon.svg";
 import customerIcon from "../../../(images)/icons/whatIsFor-customers-icon.svg";
@@ -8,7 +8,7 @@ import trustIcon from "../../../(images)/icons/whatIsFor-trust-icon.svg";
 
 import css from "./WhatIsFor.module.css";
 
-export default function WhatIsFor() {
+const WhatIsFor = () => {
   return (
     <section className={css.section} id="whatIsFor">
       <Container>
@@ -54,4 +54,6 @@ export default function WhatIsFor() {
       </Container>
     </section>
   );
-}
+};
+
+export default WhatIsFor;

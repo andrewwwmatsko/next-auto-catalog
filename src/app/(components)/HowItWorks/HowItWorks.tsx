@@ -1,5 +1,3 @@
-import Container from "../Container/Container.jsx";
-
 import submitIcon from "../../../(images)/icons/howItWorksSubmit-icon.svg";
 import designIcon from "../../../(images)/icons/howItWorksDesign-icon.svg";
 import catalogIcon from "../../../(images)/icons/howItWorksCatalog-icon.svg";
@@ -7,7 +5,7 @@ import catalogIcon from "../../../(images)/icons/howItWorksCatalog-icon.svg";
 import css from "./HowItWorks.module.css";
 import Image from "next/image.js";
 
-export default function HowItWorks() {
+const HowItWorks = () => {
   return (
     <section className={css.section} id="howItWorks">
       <div className={css.container}>
@@ -42,4 +40,6 @@ export default function HowItWorks() {
       </div>
     </section>
   );
-}
+};
+
+export default HowItWorks;

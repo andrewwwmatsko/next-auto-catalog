@@ -1,11 +1,11 @@
-import AccordionItem from "../AccordionItem/AccordionItem.jsx";
-import Container from "../Container/Container.jsx";
+import AccordionItem from "../AccordionItem/AccordionItem.tsx";
+import Container from "../Container/Container.tsx";
 
-import accordionData from "./accordionData.js";
+import accordionData from "./accordionData.ts";
 
 import css from "./Faq.module.css";
 
-export default function Faq() {
+const Faq = () => {
   return (
     <section className={css.section} id="faq">
       <Container>
@@ -23,4 +23,6 @@ export default function Faq() {
       </Container>
     </section>
   );
-}
+};
+
+export default Faq;

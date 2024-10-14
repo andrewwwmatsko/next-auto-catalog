@@ -1,4 +1,4 @@
-const accordionData = [
+const accordionData: AccordionData[] = [
   {
     title: "How often will the list of lots on my website be updated?",
     text: "Updates every hour. That is why you are always on the site lots will be relevant.",

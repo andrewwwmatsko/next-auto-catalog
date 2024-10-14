@@ -4,13 +4,13 @@ import Image from "next/image.js";
 import { MdEmail } from "react-icons/md";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
-import Container from "../Container/Container.jsx";
+import Container from "../Container/Container.tsx";
 
 import mainIcon from "../../../(images)/carLinkImage.png";
 
 import css from "./Header.module.css";
 
-export default function Header() {
+const Header = () => {
   return (
     <>
       <Container>
@@ -59,4 +59,6 @@ export default function Header() {
       </Container>
     </>
   );
-}
+};
+
+export default Header;

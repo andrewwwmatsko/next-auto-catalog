@@ -1,10 +1,10 @@
-import Container from "../Container/Container.jsx";
-import PriceListItem from "../PriceListItem/PriceListItem.jsx";
+import Container from "../Container/Container.tsx";
+import PriceListItem from "../PriceListItem/PriceListItem.tsx";
 import css from "./Prices.module.css";
 
-import priceCards from "./cardDetails.js";
+import priceCards from "./cardDetails.ts";
 
-export default function Prices() {
+const Prices = () => {
   return (
     <section className={css.section} id="prices">
       <Container>
@@ -22,4 +22,6 @@ export default function Prices() {
       </Container>
     </section>
   );
-}
+};
+
+export default Prices;

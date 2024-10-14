@@ -2,9 +2,22 @@ import Image from "next/image.js";
 import arrowIcon from "../../../(images)/icons/arrow-right.svg";
 
 import css from "./PriceListItem.module.css";
+import { FC } from "react";
 
-export default function PriceListItem({ data }) {
-  const {
+type Props = {
+  data: {
+    title: string;
+    price: string;
+    firstPayment: string;
+    uniqueDesign: string;
+    history: string;
+    indexing: string;
+    lotRemoval: string;
+  };
+};
+
+const PriceListItem: FC<Props> = ({
+  data: {
     title,
     price,
     firstPayment,
@@ -12,7 +25,8 @@ export default function PriceListItem({ data }) {
     history,
     indexing,
     lotRemoval,
-  } = data;
+  },
+}) => {
   return (
     <>
       <h3 className={css.subtitle}>{title}</h3>
@@ -52,4 +66,6 @@ export default function PriceListItem({ data }) {
       </button>
     </>
   );
-}
+};
+
+export default PriceListItem;
